@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #050818;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  width: 20rem;
+  height: 35rem;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 25% 75%;
+  font-size: 1.5rem;
+}
+
+.screen {
+  /* background-color: white;    */
+  display: flex;
+  align-items: flex-end;
+}
+#display {
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+.pad {
+  /* background-color: #050d2e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100%;
+  height: 100%;
+  background-color: #050d2e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pad-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.1rem;
+  background: #050818;
+}
+
+.pad-con .C-Color{
+    grid-column: span 2;
+}
+.pad-con .eql-Color{
+    grid-column: span 2;
+}
+
+.pad-con .pad-C {
+    background-color: red;
+}
+.pad-con .pad-plus {
+  grid-row: span 2;
+}
+.pad-con .eql-color {
+  background-color: orange;
+}

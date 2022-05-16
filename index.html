@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FuncCalc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <input type="text" id="display" placeholder="0" readonly>
+      </div>
+
+
+      <div class="pad-con">
+        <div class="pad C-Color">
+            <button onclick="keysFunc('C')" class="pad-C">C</button>
+        </div>
+        <div class="pad">
+            <button onclick="keysFunc('/')">/</button>
+        </div>
+        <div class="pad">
+            <button onclick="keysFunc('*')">*</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('7')">7</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('8')">8</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('9')">9</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('-')">-</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('4')">4</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('5')">5</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('6')">6</button>
+        </div>
+        <div class="pad pad-plus">
+          <button onclick="keysFunc('+')">+</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('3')">3</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('2')">2</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('1')">1</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('0')">0</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('00')">00</button>
+        </div>
+        <div class="pad">
+          <button onclick="keysFunc('=')" class="eql-color">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
